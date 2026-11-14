@@ -1,0 +1,10 @@
+{"id": "login-01", "category": "forms", "prompt": "A login form with email and password fields and a submit button", "assertions": ["input[type=email]", "input[type=password]", "button"]}
+{"id": "signup-01", "category": "forms", "prompt": "A signup form with name, email, password and a checkbox to accept terms", "assertions": ["input[type=email]", "input[type=password]", "input[type=checkbox]", "button"]}
+{"id": "contact-01", "category": "forms", "prompt": "A contact form with name, email, a message textarea and a send button", "assertions": ["input[type=email]", "textarea", "button"]}
+{"id": "pricing-01", "category": "layouts", "prompt": "A pricing page with three tiers, each with a price, a feature list and a call-to-action button", "assertions": ["button", "ul"]}
+{"id": "hero-01", "category": "layouts", "prompt": "A landing page hero section with a headline, a subheading and two buttons", "assertions": ["h1", "button"]}
+{"id": "navbar-01", "category": "layouts", "prompt": "A responsive navbar with a logo, four links and a sign-in button", "assertions": ["nav", "a", "button"]}
+{"id": "todo-01", "category": "interactive", "prompt": "A todo list where I can add items with an input and button, and delete each item", "assertions": ["input", "button", "ul"]}
+{"id": "counter-01", "category": "interactive", "prompt": "A counter with increment, decrement and reset buttons", "assertions": ["button"]}
+{"id": "tabs-01", "category": "interactive", "prompt": "A tabbed interface with three tabs that each show different content when clicked", "assertions": ["button"]}
+{"id": "stats-01", "category": "data-display", "prompt": "A dashboard stats grid with four cards, each showing a label, a number and a percentage change", "assertions": ["h2, h3, p"]}
