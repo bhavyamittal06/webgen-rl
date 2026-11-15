@@ -8,3 +8,6 @@ Take a small open model (Qwen2.5-Coder 1.5B), measure a baseline, then improve i
 ## Log
 ### 2026-11-14
 - Created repo and folder structure.
+- Built Vite + React + Tailwind sandbox template; verified Tailwind works.
+- Wrote `sandbox/check.mjs`: build, lint, headless render, console-error and selector checks.
+- Validated the checker on 1 good and 3 broken fixtures; all four behaved as expected.
